@@ -24,7 +24,7 @@
 # run it with '-h' for optional arguments.
 # you can optionally have a gpg encrypted file in your home directoray named ".switchpass.gpg" 
 # that contains only 2 lines (user & password), to be used for credentials. Otherwise follow prompts
-# Mike Albano. Updated 2016-01-27
+# Mike Albano. Updated 2016-02-04
 ########
 
 import os, os.path, pexpect, sys, re, getpass, argparse
