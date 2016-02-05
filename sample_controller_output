@@ -1,0 +1,45 @@
+(wlc_1) #no paging
+(wlc_1) #show ap arm state dot11a
+
+AP:bldg1-2011-01-28 MAC:00:fe:56:11:22:33 Channel:48 EIRP:9 Max EIRP:22 Edge:disable
+Client Density:0 Valid neighbors: 27 Relevant neighbors: 8 Rx Probe Reports: 0
+Moves(T/S):0/0 Sticky(T/S):0/0 Bandsteer(T/S):0/0 Loadbal(T/S):0/0
+Neighbor Data
+-------------
+Name               IP Address      SNR (dB)  Path Loss (dB)  Channel/Pwr  Neighbor Density  Neighbors (R/T)  Relevant
+----               ----------      --------  --------------  -----------  ----------------  ---------------  --------
+bldg1-2011-01-05  10.1.25.196  33        96              161/22.5     0                  6/15
+bldg1-2011-01-13  10.1.25.192  24        78              48/9         0                  12/22           Yes
+bldg1-2011-01-07  10.1.25.202  32        82              36/9         0                  10/18           Yes
+bldg1-2011-01-14  10.1.25.210  53        78              153/22.5     0                  7/21            Yes
+Legend: R = Relevant, T = Total,  Neighbor Density = (Overlap/Neighbor's Density/ Overlap to local density ratio/ Overlap to neighbor's density ratio)
+
+AP:bldg1-2011-01-23 MAC:00:fe:56:11:22:33 Channel:36 EIRP:9 Max EIRP:22 Edge:disable
+Client Density:0 Valid neighbors: 22 Relevant neighbors: 10 Rx Probe Reports: 0
+Moves(T/S):0/0 Sticky(T/S):0/0 Bandsteer(T/S):0/0 Loadbal(T/S):0/0
+Neighbor Data
+-------------
+Name               IP Address      SNR (dB)  Path Loss (dB)  Channel/Pwr  Neighbor Density  Neighbors (R/T)  Relevant
+----               ----------      --------  --------------  -----------  ----------------  ---------------  --------
+bldg1-2011-01-40  10.1.25.191  28        85              157/9        0                  9/27            Yes
+bldg1-2011-01-42  10.1.25.188  41        85              36/18        0                  12/29           Yes
+bldg1-2011-01-13  10.1.25.192  23        91              48/9         0                  12/22
+bldg1-2011-01-43  10.1.25.227  28        82              161/9        0                  13/25           Yes
+Legend: R = Relevant, T = Total,  Neighbor Density = (Overlap/Neighbor's Density/ Overlap to local density ratio/ Overlap to neighbor's density ratio)
+
+AP:bldg1-2011-01-31 MAC:00:fe:56:11:22:34 Channel:149 EIRP:9 Max EIRP:22.5 Edge:disable
+Client Density:0 Valid neighbors: 18 Relevant neighbors: 10 Rx Probe Reports: 0
+Moves(T/S):0/0 Sticky(T/S):0/0 Bandsteer(T/S):0/0 Loadbal(T/S):0/0
+Neighbor Data
+-------------
+Name               IP Address      SNR (dB)  Path Loss (dB)  Channel/Pwr  Neighbor Density  Neighbors (R/T)  Relevant
+----               ----------      --------  --------------  -----------  ----------------  ---------------  --------
+bldg1-2011-01-19  10.1.25.219  10        73              149/21        0                  10/28           Yes
+bldg1-2011-01-39  10.1.25.224  23        89              161/9        0                  9/28            Yes
+bldg1-2011-01-24  10.1.25.199  20        97              48/9         0                  7/19
+Legend: R = Relevant, T = Total,  Neighbor Density = (Overlap/Neighbor's Density/ Overlap to local density ratio/ Overlap to neighbor's density ratio)
+
+
+(wlc_1) #exitConnection floorosed by foreign host.
+Connection to wlc_1.test.net closed.
+mbp$
