@@ -14,7 +14,7 @@ Examples
 
 *python cci_finder.py -wlc controller1.test.net
 
-*(2.4GHz neighbors)> python cci_finder.py -r -2.4 -wlc controller1.test.net
+*(2.4GHz neighbors)> python cci_finder.py -r 2.4 -wlc controller1.test.net
 
 *(5GHz neighbors, specifying filename)> python cci_finder.py -f cli_output.txt
 
