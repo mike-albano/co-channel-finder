@@ -95,15 +95,20 @@ def ssh_to(wlc):
     child.kill(0)
   elif initial == 1:
     print "Connection Refused from host"
+    sys.exit(1)
   elif initial == 2:
     print "Connection reset by peer"
+    sys.exit(1)
   elif initial == 3:
     print "No route to host"
+    sys.exit(1)
   elif initial == 4:
     print "Connection closed by remote host"
+    sys.exit(1)
   elif initial == 5:
     print "Could not resolve hostname: %s" % wlc
     child.kill(0)
+    sys.exit(1)
   elif initial == 6:
     child.sendline(passwd_only)
   # After sending passowrd, expect/do the following
@@ -111,6 +116,7 @@ def ssh_to(wlc):
   if offer == 0:
     print "Permission Denied (failed login) for %s" % wlc
     child.kill(0)
+    sys.exit(1)
   elif offer == 1:
     print "logged in succesfully, running command(s) on: %s" % wlc
     child.sendline('no paging')
