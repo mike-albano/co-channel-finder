@@ -4,8 +4,10 @@ Identify CCI neighbors of Campus APs
 Usage: python cci_finder.py -h
 
 Pexpect script, used to get output and write it to a file.
-Reads the output of 'show ap arm state' and pull out the ap-name, cci neighbors & their SNR
-Also writes the output to cci-aps.csv
+Reads the output of 'show ap arm state' and pull out the ap-name, cci neighbors & their SNR.
+
+Also writes the output to cci-aps.csv.
+
 You can optionally have a gpg encrypted file in your home directoray named ".switchpass.gpg" that contains only 2 lines (user & password), to be used for credentials. Otherwise follow prompts.
 
 Examples
